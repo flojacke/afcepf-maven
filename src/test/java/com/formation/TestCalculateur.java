@@ -23,6 +23,13 @@ public class TestCalculateur {
 	@Test
 	public void MultTest() {
 		assertEquals(6, calcul.mult(2, 3), "Mult not ok");
+		
+		
+	}
+	
+	@Test
+	public void divTest() {
+		assertEquals(5, calcul.div(15, 3), "div not ok");
 	}
 	
 }
